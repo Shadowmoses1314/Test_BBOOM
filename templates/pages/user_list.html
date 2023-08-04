@@ -1,0 +1,15 @@
+{% extends '_base.html' %}
+{% load static %}
+
+{% block title %}User List{% endblock title %}
+
+{% block content %}
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1>User List</h1>
+    <ul>
+        {% for user in users %}
+            <li><a href="{% url 'user-posts' user.id %}">{{ user.username}}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock content %}
