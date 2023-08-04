@@ -14,7 +14,7 @@
 
 ```bash
 git clone https://github.com/Shadowmoses1314/Test_BBOOM.git
-cd django_project
+cd Test_BBOOM
 ```
 
 3. В файле `django_project/settings.py`, установите параметры подключения к базе данных для PostgreSQL:
@@ -57,7 +57,7 @@ docker-compose exec web python manage.py createsuperuser
 
 ```bash
 git clone https://github.com/your_username/django_project.git
-cd django_project
+cd Test_BBOOM
 ```
 
 2. В файле `django_project/settings.py`, установите параметры подключения к базе данных для SQLite другую базу нужно закоментировать:
